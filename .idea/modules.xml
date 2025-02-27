@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Alogorithms/Alogorithms.iml" filepath="$PROJECT_DIR$/Alogorithms/Alogorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection/Collection.iml" filepath="$PROJECT_DIR$/Collection/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreJavaAdv/CoreJavaAdv.iml" filepath="$PROJECT_DIR$/CoreJavaAdv/CoreJavaAdv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DsaMaths/DsaMaths.iml" filepath="$PROJECT_DIR$/DsaMaths/DsaMaths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLearning.iml" filepath="$PROJECT_DIR$/JavaLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
+    </modules>
+  </component>
+</project>
