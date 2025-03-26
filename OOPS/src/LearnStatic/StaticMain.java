@@ -3,6 +3,7 @@ package LearnStatic;
 import static LearnStatic.Human.staticMethod;
 
 public class StaticMain {
+
     public static void main(String[] args) {
         System.out.println("Value of static variable when no object created:: " + Human.population);
         Human perOne = new Human("Saurabh", 30, 100000, false);
