@@ -1,0 +1,49 @@
+Q1: pattern is :
+    ***
+    ***
+    ***
+
+Q2: Patterns is:
+    *
+    **
+    ***
+    ****
+
+Q3: Pattern is:
+    1
+    12
+    123
+    1234
+
+Q4: Pattern is:
+    ****
+    ***
+    **
+    *
+
+Q5: Pattern is:
+    4321
+    432
+    43
+    4
+
+Q6: Pattern is:
+        *
+       **
+      ***
+     ****
+
+Q7: Pattern is:
+        4
+       34
+      234
+     1234
+
+Q8: Pattern is:
+    *
+    **
+    ***
+    ****
+    ***
+    **
+    *

@@ -62,55 +62,6 @@ public class Main {
         return binarySearchUsingRecursion(target,arr,mid+ 1,end);
     }
 
-    public static void printNto0(int n){
-        if(n == 0){
-            return;
-        }
-        System.out.println(n);
-        printNto0(n - 1);
-    }
-
-    public static void print0toN(int n, int start){
-        System.out.println(start);
-        if(start == n){
-            return;
-        }
-        print0toN(n,start+ 1);
-    }
-
-    public static void printNto0Rev(int n){
-        if(n == 0){
-            return;
-        }
-        printNto0Rev(n - 1);
-        System.out.println(n);
-    }
-
-    public static int sumOfDigitsOfNumberWithoutRecursion(int n){
-        int result = 0;
-
-        while ((int) n / 10 != 0){
-            result+= n % 10;
-            n = n / 10;
-        }
-        result+=n;
-        return result;
-    }
-
-    public static int sumOfDigitsOfNumberWithRecursion(int n){
-        if(n == 0){
-            return 0;
-        }
-        return n % 10 + sumOfDigitsOfNumberWithRecursion(n / 10);
-    }
-
-    public static int productOfDigitsOfNumberWithRecursion(int n){
-        if(n == 0){
-            return 1;
-        }
-        return n % 10 * productOfDigitsOfNumberWithRecursion(n / 10);
-    }
-
     public static int reverseTheNumber(int n){
         if(n == 0){
             return n;
@@ -119,31 +70,16 @@ public class Main {
                 substring(0,Integer.toString(n).length()));
     }
 
-    private static int sum = 0;
-    public static int reverseTheNumberWayTwo(int n){
-        if(n == 0){
-            return sum;
-        }
-        return sum * 10 + reverseTheNumberWayTwo(n / 10);
-    }
-
-
     public static void main(String[] args) {
 //        System.out.println(findNthFibonacciNumberWithoutRecursion(8));
 //        System.out.println(findNthFibonacciUsingRecursion(4));
-        System.out.println(findFactorial(4));
-        System.out.println(factorialFour());
-        int[] arr = {1,2,3,4,5,6,7,8};
-        System.out.println(binarySearchUsingRecursion(7,arr,0, arr.length - 1));
+//        System.out.println(findFactorial(4));
+//        System.out.println(factorialFour());
+//        int[] arr = {1,2,3,4,5,6,7,8};
+//        System.out.println(binarySearchUsingRecursion(7,arr,0, arr.length - 1));
 
-        System.out.println("-------------------");
 
-//        printNto0(5);
-//        print0toN(5,0);
-//        printNto0Rev(5);
-        System.out.println(sumOfDigitsOfNumberWithoutRecursion(12345));
-        System.out.println(sumOfDigitsOfNumberWithRecursion(1234));
-        System.out.println(productOfDigitsOfNumberWithRecursion(2345));
-        System.out.println(reverseTheNumber(1234));
+
+
     }
 }
