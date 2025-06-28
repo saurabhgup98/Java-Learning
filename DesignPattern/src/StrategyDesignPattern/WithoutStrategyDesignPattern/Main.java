@@ -1,7 +1,5 @@
 package StrategyDesignPattern.WithoutStrategyDesignPattern;
 
-import java.util.Arrays;
-
 class Vehicle {
 
     public void drive(){
@@ -31,19 +29,7 @@ class OffRoadVehicle extends Vehicle{
 
 
 public class Main {
-    public static int[] twoSum(int[] A, int target) {
-        // add your logic here
-        for(int i = 0; i < A.length - 1; i++){
-            for(int j = i+ 1; j < A.length; j++){
-                if((A[i] + A[j]) == target){
-                    System.out.println("i is::" + A[i] + " j is:: " + A[j]);
-                    return new int[] {i,j};
 
-                }
-            }
-        }
-        return new int[]{};
-    }
 
     public static void main(String[] args) {
         var offRoadVehicle = new OffRoadVehicle();
@@ -57,6 +43,5 @@ public class Main {
         sportsVehicle.drive();
         System.out.println("passengerVehicle Drive method:: " );
         passengerVehicle.drive();
-        System.out.println(Arrays.toString(twoSum(new int[]{1, 3, 3, 4}, 5)));
     }
 }

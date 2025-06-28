@@ -6,13 +6,19 @@
       <module fileurl="file://$PROJECT_DIR$/Collection/Collection.iml" filepath="$PROJECT_DIR$/Collection/Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreJavaAdv/CoreJavaAdv.iml" filepath="$PROJECT_DIR$/CoreJavaAdv/CoreJavaAdv.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignQuestions/DesignQuestions.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignQuestions/DesignQuestions.iml" />
       <module fileurl="file://$PROJECT_DIR$/DsaMaths/DsaMaths.iml" filepath="$PROJECT_DIR$/DsaMaths/DsaMaths.iml" />
       <module fileurl="file://$PROJECT_DIR$/FunctionalProgramming/FunctionalProgramming.iml" filepath="$PROJECT_DIR$/FunctionalProgramming/FunctionalProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLearning.iml" filepath="$PROJECT_DIR$/JavaLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnJUnit/LearnJUnit.iml" filepath="$PROJECT_DIR$/LearnJUnit/LearnJUnit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnServlet/LearnServlet.iml" filepath="$PROJECT_DIR$/LearnServlet/LearnServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreading/Multithreading.iml" filepath="$PROJECT_DIR$/Multithreading/Multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProblemSolving/ProblemSolving.iml" filepath="$PROJECT_DIR$/ProblemSolving/ProblemSolving.iml" />
       <module fileurl="file://$PROJECT_DIR$/Revision/Revision.iml" filepath="$PROJECT_DIR$/Revision/Revision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
     </modules>
   </component>

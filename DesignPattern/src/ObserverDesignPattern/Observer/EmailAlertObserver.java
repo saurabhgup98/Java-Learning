@@ -1,22 +1,19 @@
 package ObserverDesignPattern.Observer;
 
-import ObserverDesignPattern.Observable.StocksObservable;
+import ObserverDesignPattern.Observable.StockObservable;
 
 public class EmailAlertObserver implements NotificationAlertObserver{
-    String emailId;
-    StocksObservable stocksObservable;
 
-    public EmailAlertObserver(String emailId, StocksObservable observable){
-        this.stocksObservable = observable;
+    private final String emailId;
+    private final String item;
+
+    public EmailAlertObserver(String emailId, String item){
+        this.item = item;
         this.emailId = emailId;
     }
 
     @Override
     public void update() {
-        sendMail(emailId,"Product is in Stock Hurry Up");
-    }
-
-    public void sendMail(String emailId,String msg){
-        System.out.println("Email sent to :: " + emailId);
+        System.out.println("Email send to emailId:: " + emailId + " Message is :: " + item + " is in Stock");
     }
 }
