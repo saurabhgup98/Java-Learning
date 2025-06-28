@@ -20,8 +20,11 @@ public class PolyMain {
         triangle.area();
 
         Shapes squareOne = new Square();
-        System.out.println("The area of squareOne referenced bY Shape class is ::");
+        System.out.println("The area of squareOne referenced by Shape class is ::");
         squareOne.area();
+        // This is Called Upcasting: Core feature of Java Polymorphism
+        // This means "Because square "is-a" Shape i.e. Square contain all the properties of Shape
+//        System.out.println(squareOne.side);
 
     }
 }

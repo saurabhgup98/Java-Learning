@@ -1,7 +1,7 @@
 package StrategyDesignPattern;
 
 interface DriveStrategy {
-    public void driveStrategy();
+     void driveStrategy();
 }
 
 class SportsDriveStrategy implements DriveStrategy{
@@ -25,6 +25,10 @@ class Vehicle {
         this.driveStrategyObj = driveStrategyObj;
     }
 
+    public void setDriveStrategyObj(DriveStrategy driveStrategyObj) {
+        this.driveStrategyObj = driveStrategyObj;
+    }
+
     public void drive(){
         driveStrategyObj.driveStrategy();
     }
@@ -43,14 +47,14 @@ class PassengerVehicle extends Vehicle{
 }
 
 class OffRoadVehicle extends Vehicle{
-    OffRoadVehicle(){
+    OffRoadVehicle(DriveStrategy driveStrategy){
         super(new SportsDriveStrategy());
     }
 }
 
 public class WithStrategyDesignPattern {
     public static void main(String[] args) {
-        var offRoadVehicle = new OffRoadVehicle();
+        var offRoadVehicle = new OffRoadVehicle(new SportsDriveStrategy());
         var sportsVehicle = new SportsVehicle();
         var passengerVehicle = new PassengerVehicle();
 
@@ -61,5 +65,9 @@ public class WithStrategyDesignPattern {
         sportsVehicle.drive();
         System.out.println("passengerVehicle Drive method:: " );
         passengerVehicle.drive();
+        passengerVehicle.setDriveStrategyObj(new SportsDriveStrategy());
+        System.out.println("Passenger Vehicle Drive method after changing new Drive strategy");
+        passengerVehicle.drive();
+
     }
 }
